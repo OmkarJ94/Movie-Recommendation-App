@@ -2,7 +2,7 @@
   "name": "neweatherapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://OmkarJ94.github.io/Movie-Recommendation-App",
+  "homepage": "http://OmkarJ94.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
