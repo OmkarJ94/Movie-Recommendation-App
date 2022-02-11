@@ -19,9 +19,9 @@ function App() {
   }
   return (
     <>
-      <div className="container">
+      <div className=" container">
         <div className="card" style={{ width: "60rem" }}>
-          <div className="input-group mt-5" style={{ width: "75%", alignSelf: "center" }}>
+          <div className="input-group mt-4" style={{ width: "75%", alignSelf: "center" }}>
             <input type="text" className="form-control inp" placeholder="Movie Name" aria-label="Recipient's username" aria-describedby="button-addon2" onChange={(e) => {
               setTitle(e.target.value)
             }} />
