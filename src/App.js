@@ -32,7 +32,7 @@ function App() {
             <div className="card-body">
               <div className="row">
                 <div className="col first">
-                  <img src={data?.Poster} alt={data?.Title} />
+                  <img src={data?.Poster} alt={data?.Title}/>
                 </div>
                 <div className="col">
                   <h5><b>Movie Name</b>:-{data?.Title}</h5>
