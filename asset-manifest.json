@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Movie-Recommendation-App/static/css/main.57725c57.css",
-    "main.js": "/Movie-Recommendation-App/static/js/main.ef93f289.js",
+    "main.js": "/Movie-Recommendation-App/static/js/main.03d21b58.js",
     "static/js/787.12987457.chunk.js": "/Movie-Recommendation-App/static/js/787.12987457.chunk.js",
     "index.html": "/Movie-Recommendation-App/index.html",
     "main.57725c57.css.map": "/Movie-Recommendation-App/static/css/main.57725c57.css.map",
-    "main.ef93f289.js.map": "/Movie-Recommendation-App/static/js/main.ef93f289.js.map",
+    "main.03d21b58.js.map": "/Movie-Recommendation-App/static/js/main.03d21b58.js.map",
     "787.12987457.chunk.js.map": "/Movie-Recommendation-App/static/js/787.12987457.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.57725c57.css",
-    "static/js/main.ef93f289.js"
+    "static/js/main.03d21b58.js"
   ]
 }
