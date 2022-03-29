@@ -8,6 +8,7 @@ function App() {
   const [loading, setLoading] = useState(false)
   useEffect(() => {
     fetchData();
+
   }, [])
   const fetchData = async () => {
     let url = `https://omdbapi.com/?t=${title}&apikey=${process.env.REACT_APP_APIKEY}`;
@@ -16,6 +17,7 @@ function App() {
     const result = await data.json()
     setData(result)
     setLoading(false)
+    document.title = `Movie-${title}`;
   }
   return (
     <>
@@ -32,7 +34,7 @@ function App() {
             <div className="card-body">
               <div className="row">
                 <div className="col first">
-                  <img src={data?.Poster} alt={data?.Title}/>
+                  <img src={data?.Poster} alt={data?.Title} />
                 </div>
                 <div className="col">
                   <h5><b>Movie Name</b>:-{data?.Title}</h5>
