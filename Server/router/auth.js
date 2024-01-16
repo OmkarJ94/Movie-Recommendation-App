@@ -4,7 +4,7 @@ const nodemailer = require('nodemailer');
 const hbs = require("nodemailer-express-handlebars")
 const path = require('path')
 router.post("/sendemail", async (req, res) => {
-   const {data,email}=req.body
+    const { data, email } = req.body
     if (!data) {
         return res.status(404).send("Invalid")
     }
@@ -59,7 +59,7 @@ const mailer = (mail, data, req, res) => {
         })
     } catch (error) {
         res.status(404).send("Invalid");
-        
+
 
     }
 }
